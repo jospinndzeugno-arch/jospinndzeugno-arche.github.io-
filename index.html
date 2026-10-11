@@ -179,7 +179,7 @@
     .price small { font-weight: 300; color: var(--muted); }
 
     /* ---------- AFFICHES ---------- */
-    .posters { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 420px)); gap: 36px; justify-content: center; }
+    .posters { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; align-items: start; }
     .poster { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
     .poster img { width: 100%; height: auto; }
     .poster figcaption { padding: 22px 24px 28px; }
@@ -420,7 +420,7 @@
     <section id="univers">
       <div class="container">
         <h2 class="section-title reveal">Mes univers</h2>
-        <p class="section-intro reveal">Culture, scène et technologie : clique sur une affiche pour la voir en grand.</p>
+        <p class="section-intro reveal">Culture, scène et technologie : clique sur une image pour la voir en grand.</p>
 
         <div class="posters">
           <figure class="poster reveal">
@@ -442,6 +442,17 @@
               <h3>Professeur Tech Solutions</h3>
               <p>Administration réseau, sécurité, serveurs, sauvegarde et cloud pour entreprises et particuliers.</p>
               <a href="#contact" class="btn btn-gold" data-service="Réseau & informatique">Demander un devis</a>
+            </figcaption>
+          </figure>
+
+          <figure class="poster reveal">
+            <a href="images/badge-professeurj2.jpg" target="_blank" rel="noopener">
+              <img src="images/badge-professeurj2.jpg" alt="Badge ProfesseurJ2 : culture générale, artiste, animateur et humoriste au Québec" width="800" height="800" loading="lazy">
+            </a>
+            <figcaption>
+              <h3>ProfesseurJ2 : éduquer, divertir, partager</h3>
+              <p>Culture générale, artiste, animateur et humoriste au Québec. Retrouve-moi sur Instagram, TikTok et Facebook.</p>
+              <a href="#contact" class="btn btn-gold">Me contacter</a>
             </figcaption>
           </figure>
         </div>
